@@ -26,10 +26,10 @@ resolver: nightly-2017-01-07
 # will not be run. This is useful for tweaking upstream packages.
 packages:
 - '.'
-- ../HsInterface
-- ../Ide3/Ide3/Ide3-base
-- ../Ide3/Ide3/Ide3-common
-- ../Ide3/Ide3/Ide3-stack
+- HsInterface
+- Ide3-base
+- Ide3-common
+- Ide3-stack
 # Dependency packages to be pulled from upstream that are not in the resolver
 # (e.g., acme-missiles-0.3)
 extra-deps: []
